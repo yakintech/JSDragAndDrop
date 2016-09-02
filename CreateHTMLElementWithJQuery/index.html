@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="Scripts/jquery-3.1.0.min.js"></script>
+    <script src="Scripts/interact.min.js"></script>
+    <script src="Scripts/custom/createhtmlelement.js"></script>
+
+    <script src="Scripts/custom/generatenumber.js"></script>
+    <style>
+        div.demo-node:before {
+            border-bottom: 2px solid red;
+        }
+
+        div.demo-node {
+            position: absolute;
+            border-radius: 10px;
+            border: 5px solid #333333;
+            border: 5px solid #333333;
+            width: 200px;
+            height: 200px;
+            padding: 15px;
+            margin: 15px;
+            overflow: auto;
+            background-color: #565252;
+            touch-action: none;
+        }
+
+    </style>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <button onclick="createhtml('img','source/koala.jpg')">Resim oluştur</button>
+</body>
+</html>
